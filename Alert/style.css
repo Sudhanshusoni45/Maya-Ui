@@ -1,0 +1,30 @@
+@import url(../index.css);
+@import url(../reset.css);
+
+.wrapper {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.btn {
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  background: grey;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-error {
+  background: var(--danger-color);
+}
+
+.btn-success {
+  background: var(--success-color);
+}
