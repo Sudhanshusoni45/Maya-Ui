@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #333;
+
+  --primary-color: #4f46e5;
+  --secondary-color: #f3f4f6;
+  --danger-color: #c53030;
+  --success-color: #2f855a;
+  --warning-color: #fea119;
+  --danger-light-color: #fef2f2;
+  --success-light-color: #ecfdf5;
+  --warning-light-color: #fffbeb;
+  --info-light-color: #eff6ff;
+}
+
+body {
+  font-family: "roboto";
+}
+
+a {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* navigation bar */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  box-shadow: 0px 1px 2px 1px rgb(211, 211, 211);
+  padding: 1.5rem 2rem;
+}
+
+.logo {
+  margin-left: 5rem;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+/* documentation */
+
+.documentation {
+  display: flex;
+  /* outline: red solid 1px; */
+  margin: 3rem 5rem;
+  color: var(--font-color);
+}
+
+/* Sidebar */
+
+.sidebar {
+  /* outline: green solid; */
+  padding-top: 1rem;
+  padding-left: 2rem;
+  justify-self: center;
+  /* align-self: center; */
+  width: 15%;
+}
+
+.sidebar .list-topic {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+.sidebar li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+/* Main content */
+
+.main-content {
+  padding: 1rem;
+  padding-left: 2rem;
+  margin-left: 1rem;
+  width: 70%;
+}
+
+.main-content p {
+  line-height: 1.7rem;
+}
+
+/* Content */
+
+.content-head {
+  margin-bottom: 1rem;
+}
+
+.divider {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+.code-example {
+  margin-top: 1rem;
+}
+/* Colors */
+
+.color-pallete {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.color-pallete div {
+  padding: 2rem 1rem;
+  color: rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.color-pallete :nth-child(1) {
+  background: var(--primary-color);
+}
+
+.color-pallete :nth-child(2) {
+  background: var(--warning-color);
+}
+
+.color-pallete :nth-child(3) {
+  background: var(--danger-color);
+}
+
+.color-pallete :nth-child(4) {
+  background: var(--success-color);
+}
