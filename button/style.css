@@ -1,0 +1,62 @@
+@import url(../index.css);
+@import url(../reset.css);
+
+.wrapper {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.btn {
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: grey;
+}
+
+/* Contained buttons */
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-error {
+  background: var(--danger-color);
+}
+
+.btn-success {
+  background: var(--success-color);
+}
+
+/* Outlines buttons */
+
+.btn.outline {
+  background-color: transparent;
+  color: grey;
+  border: 2px solid grey;
+}
+
+.btn.outline-primary {
+  color: var(--primary-color);
+  background: transparent;
+  border: 2px solid var(--primary-color);
+}
+
+.btn.outline-error {
+  color: var(--danger-color);
+  background: transparent;
+  border: 2px solid var(--danger-color);
+}
+
+.btn.outline-success {
+  color: var(--success-color);
+  background: transparent;
+  border: 2px solid var(--success-color);
+}
+
+/* pseudo classes */
+
+.btn:hover {
+  cursor: pointer;
+}

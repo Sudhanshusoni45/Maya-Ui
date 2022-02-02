@@ -1,0 +1,28 @@
+@import url(../reset.css);
+@import url(../index.css);
+
+.alert {
+  width: 65%;
+  margin: 5px auto;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 7px;
+  color: white;
+}
+
+.alert.primary {
+  background: var(--primary-color);
+}
+.alert.success {
+  background: var(--success-color);
+}
+.alert.warning {
+  background: var(--warning-color);
+}
+.alert.error {
+  background: var(--danger-color);
+}
+
+.alert:hover {
+  cursor: pointer;
+}
