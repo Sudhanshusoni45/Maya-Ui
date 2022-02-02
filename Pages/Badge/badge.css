@@ -1,6 +1,6 @@
 @import url(../reset.css);
 @import url(../Avatar/style.css);
-@import url(../index.css);
+@import url(../variables.css);
 
 .badge-container {
   position: relative;

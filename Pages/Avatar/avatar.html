@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <div class="logo">
-        <h3>Maya-Ui</h3>
+        <h2>Maya-Ui</h2>
       </div>
 
       <nav class="navbar">
@@ -48,46 +48,71 @@
       </aside>
       <main class="main-content">
         <div class="content-head">
-          <h2>Typography</h2>
+          <h2>Avatar</h2>
         </div>
         <div class="content">
           <p>
-            Typography for Maya-Ui contains info about Headings and Font used in
-            this Library.
+            Avatar are circular images generally used to represent a user or
+            user's persona.
           </p>
         </div>
 
         <div class="divider"></div>
 
         <div class="content-head">
-          <h2>Headings</h2>
+          <h2>Profile Avatar</h2>
         </div>
         <div class="content">
           <p>
-            All the Headings used in Html 5 from h1 to h6 are supported by
-            Maya-Ui.
+            Profile avatars can created by adding class = 'avatar' inside img
+            tag.
           </p>
-          <div class="code-example">
-            <h1>h1. Heading</h1>
-            <h2>h2. Heading</h2>
-            <h3>h3. Heading</h3>
-            <h4>h4. Heading</h4>
-            <h5>h5. Heading</h5>
-            <h6>h6. Heading</h6>
+
+          <div class="example">
+            <img
+              src="./profile-pic (7).jpg"
+              alt="profile pic-1"
+              class="avatar sm"
+            />
+            <img
+              src="./profile-pic (7).jpg"
+              alt="profile pic-2"
+              class="avatar sm"
+            />
+            <img
+              src="./profile-pic (7).jpg"
+              alt="profile pic-3"
+              class="avatar sm"
+            />
           </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28160%2C200%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=400&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=30px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Furl-of-the-image%2522%2520alt%253D%2522avatar-1%2522%253E%2520%2520%2520%250A"
+  style="width: 730px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
         </div>
 
         <div class="divider"></div>
 
         <div class="content-head">
-          <h2>Font</h2>
+          <h2>Avatar Sizes</h2>
         </div>
         <div class="content">
           <p>
-            Maya-Ui uses
-            <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> as
-            it's Default font.
+            Avatars comes in three different sizes: small, medium and large.
+            To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
+            <br>
+            Note: Default avatar size is medium.
           </p>
+
+<div class="example">
+  <img class="avatar sm" src="./4094-pepe-14.png" alt="">
+  <img class="avatar md" src="./4094-pepe-14.png" alt="">
+  <img class="avatar lg" src="./4094-pepe-14.png" alt="">
+</div>
+
           <div class="code-example">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28160%2C200%2C255%2C1%29&t=seti&wt=none&l=css&width=400&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=30px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F*Already%2520Imported%2520in%2520Maya-Ui*%252F%250A%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DRoboto%253Aital%252Cwght%25400%252C100%253B0%252C300%253B0%252C400%253B0%252C500%253B0%252C700%253B0%252C900%253B1%252C100%253B1%252C300%253B1%252C400%253B1%252C500%253B1%252C700%253B1%252C900%2526display%253Dswap%27%29%253B%250A"

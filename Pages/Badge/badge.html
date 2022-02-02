@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="badge.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../style.css" />
+      </head>
+      <body>
+        <header class="header">
+          <div class="logo">
+            <h3>Maya-Ui</h3>
+          </div>
+
+          <nav class="navbar">
+            <ul>
+              <li>Home</li>
+              <li>Documentation</li>
+            </ul>
+          </nav>
+        </header>
+        <section class="documentation">
+          <aside class="sidebar">
+            <div class="list-topic">
+              <h4>Get Started</h4>
+            </div>
+            <ul>
+              <li>
+                <a href="../Introduction/Introduction.html">Introduction</a>
+              </li>
+              <li><a href="../Colors/colors.html">Colors</a></li>
+              <li><a href="../Typography/typography.html">Typography</a></li>
+            </ul>
+
+            <div class="list-topic">
+              <h4>Components</h4>
+            </div>
+            <ul>
+              <li><a href="../Avatar/avatar.html">Avatar</a></li>
+              <li><a href="">Alert</a></li>
+              <li><a href="">Badge</a></li>
+              <li><a href="">Button</a></li>
+              <li><a href="">Card</a></li>
+              <li><a href="">Image</a></li>
+              <li><a href="">Input</a></li>
+              <li><a href="">List</a></li>
+              <li><a href="">Toast</a></li>
+            </ul>
+          </aside>
+          <main class="main-content">
+            <div class="content-head">
+              <h2>Badge</h2>
+            </div>
+            <div class="content">
+              <p>
+                Badges are small circles that are used to convey number of
+                notifications received or the online/offline status of an
+                individual.
+              </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="content-head">
+              <h2>Profile Badge</h2>
+            </div>
+            <div class="content">
+              <p>
+                Profile badges are small circle at the bottom right of an
+                individual's avatar that used to convey the online/offline
+                status. <br />
+                <br />
+                It has three variants online | dnd | offline
+              </p>
+              <div class="example">
+                <div class="badge-container">
+                  <img
+                    src="../Avatar/profile-pic (7).jpg"
+                    alt="profile-pic"
+                    class="avatar lg"
+                  />
+                  <div class="badge online"></div>
+                </div>
+
+                <div class="badge-container">
+                  <img
+                    src="../Avatar/profile-pic (7).jpg"
+                    alt="profile-pic"
+                    class="avatar lg"
+                  />
+                  <div class="badge dnd"></div>
+                </div>
+
+                <div class="badge-container">
+                  <img
+                    src="../Avatar/profile-pic (7).jpg"
+                    alt="profile-pic"
+                    class="avatar lg"
+                  />
+                  <div class="badge offline"></div>
+                </div>
+              </div>
+
+              <div class="code-example">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28160%2C200%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=503&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=30px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522url-of-image%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520lg%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522url-of-image%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520lg%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522url-of-image%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520lg%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 600px;
+                    height: 300px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="content-head">
+              <h2>Number Badge</h2>
+            </div>
+            <div class="content">
+              <p>
+                Number badge is used to show the number of notifications or the
+                number of items present in the parent component.
+              </p>
+
+              <div class="example">
+                <div class="badge-container">
+                  <img src="./shopping-cart (1).png" alt="shopping-cart" />
+                  <div class="badge">10</div>
+                </div>
+
+                <div class="badge-container">
+                  <img src="./email (1).png" alt="email" />
+                  <div class="badge">15</div>
+                </div>
+              </div>
+
+              <div class="code-example">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=531&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253ENumber%2520of%2520badge%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253ENumber%2520of%2520badge%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+                  style="
+                    width: 580px;
+                    height: 355px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+          </main>
+        </section>
+      </body>
+    </html>
+  </body>
+</html>
