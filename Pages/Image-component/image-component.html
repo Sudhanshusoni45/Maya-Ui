@@ -8,24 +8,184 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      class="sq-img"
-      src="./4814_A-small-mascot-plush-animal.jpg"
-      alt="a dog"
-    />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../style.css" />
+        <script
+          src="https://kit.fontawesome.com/e06444868d.js"
+          crossorigin="anonymous"
+        ></script>
+      </head>
 
-    <img
-      class="round-img"
-      src="./4814_A-small-mascot-plush-animal.jpg"
-      alt="a dog"
-    />
+      <body>
+        <header class="header">
+          <div class="logo">
+            <h2>Maya-Ui</h2>
+          </div>
 
-    <div class="img-container">
-      <img
-        class="rsp-img"
-        src="./beautiful-shot-young-caucasian-male-doing-skateboard-stunts.jpg"
-        alt="boy with skate board"
-      />
-    </div>
+          <nav class="navbar">
+            <ul>
+              <li>Home</li>
+              <li>Documentation</li>
+            </ul>
+          </nav>
+        </header>
+        <section class="documentation">
+          <aside class="sidebar">
+            <div class="list-topic">
+              <h4>Get Started</h4>
+            </div>
+            <ul>
+              <li>
+                <a href="../Introduction/Introduction.html">Introduction</a>
+              </li>
+              <li><a href="../Colors/colors.html">Colors</a></li>
+              <li><a href="../Typography/typography.html">Typography</a></li>
+            </ul>
+
+            <div class="list-topic">
+              <h4>Components</h4>
+            </div>
+            <ul>
+              <li><a href="../Avatar/avatar.html">Avatar</a></li>
+              <li><a href="../Alert/alert.html">Alert</a></li>
+              <li><a href="../Badge/badge.html">Badge</a></li>
+              <li><a href="../button/button.html">Button</a></li>
+              <li><a href="../Card/card.html">Card</a></li>
+              <li>
+                <a href="../Image-component/image-component.html">Image</a>
+              </li>
+              <li><a href="../Input/input.html">Input</a></li>
+            </ul>
+          </aside>
+          <main class="main-content">
+            <div class="content-head">
+              <h2>Image</h2>
+            </div>
+            <div class="content">
+              <p>
+                Avatar are circular images generally used to represent a user or
+                user's persona.
+              </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="content-head">
+              <h2>Square Image</h2>
+            </div>
+            <div class="content">
+              <p>
+                Profile avatars can created by adding class = 'avatar' inside
+                img tag.
+              </p>
+
+              <div class="example">
+                <img
+                  class="sq-img"
+                  src="./4814_A-small-mascot-plush-animal.jpg"
+                  alt="a dog"
+                />
+              </div>
+
+              <div class="code-example">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-error%2520btn%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-success%2520btn%2522%253ESuccess%253C%252Fbutton%253E"
+                  style="
+                    width: 650px;
+                    height: 260px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="content-head">
+              <h2>Round Image</h2>
+            </div>
+            <div class="content">
+              <p>
+                Avatars comes in three different sizes: small, medium and large.
+                To use these sizes just add their abbreviation sm, md, lg
+                respectively along with 'avatar' class.
+                <br />
+                Note: Default avatar size is medium.
+              </p>
+
+              <div class="example">
+                <img
+                  class="round-img"
+                  src="./4814_A-small-mascot-plush-animal.jpg"
+                  alt="a dog"
+                />
+              </div>
+
+              <div class="code-example">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E"
+                  style="
+                    width: 650px;
+                    height: 298px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="content-head">
+              <h2>Responsive Image</h2>
+            </div>
+            <div class="content">
+              <p>
+                Avatars comes in three different sizes: small, medium and large.
+                To use these sizes just add their abbreviation sm, md, lg
+                respectively along with 'avatar' class.
+                <br />
+                Note: Default avatar size is medium.
+              </p>
+
+              <div class="example">
+                <img
+                  class="rsp-img"
+                  src="./beautiful-shot-young-caucasian-male-doing-skateboard-stunts.jpg"
+                  alt="boy with skate board"
+                />
+              </div>
+
+              <div class="code-example">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=438&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520icon-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520icon-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-camera%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+                  style="
+                    width: 500px;
+                    height: 318px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+          </main>
+        </section>
+      </body>
+    </html>
   </body>
 </html>
