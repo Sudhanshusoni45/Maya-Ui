@@ -5,223 +5,399 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="../style.css" />
     <script
       src="https://kit.fontawesome.com/e06444868d.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <!-- Basic card -->
-    <div class="basic-card-wrapper">
-      <div class="basic-card">
-        <div class="upperSection">
-          <img src="./images/Changing-planet.jpg" alt="" />
+    <header class="header">
+      <div class="logo">
+        <h2>Maya-Ui</h2>
+      </div>
 
-          <div class="upperContent">
-            <h2>Our changing planet</h2>
-            <h3>by Kurt Wagner</h3>
-          </div>
-          <div class="details">
-            <p>
-              Visit ten places on our planet that are undergoing the biggest
-              changes today.
-            </p>
-          </div>
+      <nav class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>Documentation</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="documentation">
+      <aside class="sidebar">
+        <div class="list-topic">
+          <h4>Get Started</h4>
+        </div>
+        <ul>
+          <li><a href="../Introduction/Introduction.html">Introduction</a></li>
+          <li><a href="../Colors/colors.html">Colors</a></li>
+          <li><a href="../Typography/typography.html">Typography</a></li>
+        </ul>
+
+        <div class="list-topic">
+          <h4>Components</h4>
+        </div>
+        <ul>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a href="">Alert</a></li>
+          <li><a href="">Badge</a></li>
+          <li><a href="">Button</a></li>
+          <li><a href="">Card</a></li>
+          <li><a href="">Image</a></li>
+          <li><a href="">Input</a></li>
+          <li><a href="">List</a></li>
+          <li><a href="">Toast</a></li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <div class="content-head">
+          <h2>Card</h2>
+        </div>
+        <div class="content">
+          <p>
+            Avatar are circular images generally used to represent a user or
+            user's persona.
+          </p>
         </div>
 
-        <div class="lower">
-          <div>
-            <button>
-              <small>READ</small>
-            </button>
-            <button>
-              <small>BOOKMARK</small>
-            </button>
-          </div>
-          <div>
-            <img src="./images/love.png" alt="" />
-            <img src="./images/share.png" alt="" />
-            <img src="./images/dots.png" alt="" />
-          </div>
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Basic Card</h2>
         </div>
+        <div class="content">
+          <p>
+            Profile avatars can created by adding class = 'avatar' inside img
+            tag.
+          </p>
+
+          <div class="example">
+            
+            <div class="basic-card">
+              <div class="upperSection">
+                <img src="./images/Changing-planet.jpg" alt="" />
+        
+                <div class="upperContent">
+                  <h2>Our changing planet</h2>
+                  <h3>by Kurt Wagner</h3>
+                </div>
+                <div class="details">
+                  <p>
+                    Visit ten places on our planet that are undergoing the biggest
+                    changes today.
+                  </p>
+                </div>
+              </div>
+        
+              <div class="lower">
+                <div>
+                  <button>
+                    <small>READ</small>
+                  </button>
+                  <button>
+                    <small>BOOKMARK</small>
+                  </button>
+                </div>
+                <div>
+                  <img src="./images/love.png" alt="small heart" />
+                  <img src="./images/share.png" alt="share icon" />
+                  <img src="./images/dots.png" alt="dots menu" />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=590&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperSection%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperContent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EAuthor%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Text%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522lower%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EREAD%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBOOKMARK%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Flove.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fshare.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fdots.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 650px; height: 746px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Text Card</h2>
+        </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large.
+            To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
+            <br>
+            Note: Default avatar size is medium.
+          </p>
+
+<div class="example">
+  <div class="basic-card">
+    <div class="upperSection">
+      <div class="upperContent">
+        <h2>Our changing planet</h2>
+        <h3>by Kurt Wagner</h3>
+      </div>
+      <div class="details">
+        <p>
+          Visit ten places on our planet that are undergoing the biggest
+          changes today.
+        </p>
       </div>
     </div>
 
-    <!-- Horizontal card -->
-    <div class="horizontal-card-wrapper">
-      <div class="horizontal-card">
-        <div class="upperSection">
-          <img src="./images/Changing-planet.jpg" alt="" />
+    <div class="lower">
+      <div>
+        <button>
+          <small>READ</small>
+        </button>
+        <button>
+          <small>BOOKMARK</small>
+        </button>
+      </div>
+      <div>
+        <img src="./images/love.png" alt="" />
+        <img src="./images/share.png" alt="" />
+        <img src="./images/dots.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
 
-          <div class="upperContent">
-            <h2>Our Changing Planet</h2>
-            <h3>by Kurt Wagner</h3>
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=570&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperSection%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperContent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EAuthor%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Text%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522lower%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EREAD%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBOOKMARK%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Flove.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fshare.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fdots.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 650px; height: 727px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
           </div>
         </div>
-        <div class="lower">
-          <div>
-            <button>
-              <small>READ</small>
-            </button>
-            <button>
-              <small>BOOKMARK</small>
-            </button>
-          </div>
-          <div>
-            <img src="./images/love.png" alt="" />
-            <img src="./images/share.png" alt="" />
-            <img src="./images/dots.png" alt="" />
-          </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Dismissable card</h2>
         </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large.
+            To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
+            <br>
+            Note: Default avatar size is medium.
+          </p>
+
+<div class="example">
+  <div class="basic-card dismiss-card">
+    <i class="fas fa-times"></i>
+    <div class="upperSection">
+      <img src="./images/Changing-planet.jpg" alt="" />
+
+      <div class="upperContent">
+        <h2>Our changing planet</h2>
+        <h3>by Kurt Wagner</h3>
+      </div>
+      <div class="details">
+        <p>
+          Visit ten places on our planet that are undergoing the biggest
+          changes today.
+        </p>
       </div>
     </div>
 
-    <!-- Card with text overlay -->
+    <div class="lower">
+      <div>
+        <button>
+          <small>READ</small>
+        </button>
+        <button>
+          <small>BOOKMARK</small>
+        </button>
+      </div>
+      <div>
+        <img src="./images/love.png" alt="" />
+        <img src="./images/share.png" alt="" />
+        <img src="./images/dots.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
 
-    <div class="basic-card-wrapper">
-      <div class="basic-card text-overlay">
-        <div class="upperSection">
-          <img src="./images/Changing-planet.jpg" alt="" />
-
-          <div class="upperContent">
-            <h2>Our changing planet</h2>
-            <h3>by Kurt Wagner</h3>
-          </div>
-          <div class="details">
-            <p>
-              Visit ten places on our planet that are undergoing the biggest
-              changes today.
-            </p>
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=570&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-card%2520dismiss-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperSection%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperContent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EAuthor%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Text%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522lower%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EREAD%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBOOKMARK%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Flove.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fshare.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fdots.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 650px; height: 783px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
           </div>
         </div>
 
-        <div class="lower">
-          <div>
-            <button>
-              <small>READ</small>
-            </button>
-            <button>
-              <small>BOOKMARK</small>
-            </button>
-          </div>
-          <div>
-            <img src="./images/love.png" alt="" />
-            <img src="./images/share.png" alt="" />
-            <img src="./images/dots.png" alt="" />
-          </div>
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Card with text over media</h2>
         </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large.
+            To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
+            <br>
+            Note: Default avatar size is medium.
+          </p>
+
+<div class="example">
+  <div class="basic-card text-overlay">
+    <div class="upperSection">
+      <img src="./images/Changing-planet.jpg" alt="" />
+
+      <div class="upperContent">
+        <h2>Our changing planet</h2>
+        <h3>by Kurt Wagner</h3>
+      </div>
+      <div class="details">
+        <p>
+          Visit ten places on our planet that are undergoing the biggest
+          changes today.
+        </p>
       </div>
     </div>
 
-    <!-- Card with dismiss icon -->
+    <div class="lower">
+      <div>
+        <button>
+          <small>READ</small>
+        </button>
+        <button>
+          <small>BOOKMARK</small>
+        </button>
+      </div>
+      <div>
+        <img src="./images/love.png" alt="" />
+        <img src="./images/share.png" alt="" />
+        <img src="./images/dots.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
 
-    <div class="basic-card-wrapper">
-      <div class="basic-card dismiss-card">
-        <i class="fas fa-times"></i>
-        <div class="upperSection">
-          <img src="./images/Changing-planet.jpg" alt="" />
-
-          <div class="upperContent">
-            <h2>Our changing planet</h2>
-            <h3>by Kurt Wagner</h3>
-          </div>
-          <div class="details">
-            <p>
-              Visit ten places on our planet that are undergoing the biggest
-              changes today.
-            </p>
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=570&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-card%2520text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperSection%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperContent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EOur%2520changing%2520planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EText%2520Content%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522lower%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EREAD%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBOOKMARK%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Flove.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fshare.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fdots.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 650px; height: 709px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
           </div>
         </div>
 
-        <div class="lower">
-          <div>
-            <button>
-              <small>READ</small>
-            </button>
-            <button>
-              <small>BOOKMARK</small>
-            </button>
-          </div>
-          <div>
-            <img src="./images/love.png" alt="" />
-            <img src="./images/share.png" alt="" />
-            <img src="./images/dots.png" alt="" />
-          </div>
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Card with Badge</h2>
         </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large.
+            To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
+            <br>
+            Note: Default avatar size is medium.
+          </p>
+
+<div class="example">
+  <div class="basic-card badge-card">
+    <div class="badge lg">15</div>
+    <div class="upperSection">
+      <img src="./images/Changing-planet.jpg" alt="" />
+
+      <div class="upperContent">
+        <h2>Our changing planet</h2>
+        <h3>by Kurt Wagner</h3>
+      </div>
+      <div class="details">
+        <p>
+          Visit ten places on our planet that are undergoing the biggest
+          changes today.
+        </p>
       </div>
     </div>
 
-    <!-- Text Only Cards -->
-
-    <div class="basic-card-wrapper">
-      <div class="basic-card">
-        <div class="upperSection">
-          <div class="upperContent">
-            <h2>Our changing planet</h2>
-            <h3>by Kurt Wagner</h3>
-          </div>
-          <div class="details">
-            <p>
-              Visit ten places on our planet that are undergoing the biggest
-              changes today.
-            </p>
-          </div>
-        </div>
-
-        <div class="lower">
-          <div>
-            <button>
-              <small>READ</small>
-            </button>
-            <button>
-              <small>BOOKMARK</small>
-            </button>
-          </div>
-          <div>
-            <img src="./images/love.png" alt="" />
-            <img src="./images/share.png" alt="" />
-            <img src="./images/dots.png" alt="" />
-          </div>
-        </div>
+    <div class="lower">
+      <div>
+        <button>
+          <small>READ</small>
+        </button>
+        <button>
+          <small>BOOKMARK</small>
+        </button>
+      </div>
+      <div>
+        <img src="./images/love.png" alt="" />
+        <img src="./images/share.png" alt="" />
+        <img src="./images/dots.png" alt="" />
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Card with badges -->
-    <div class="basic-card-wrapper">
-      <div class="basic-card badge-card">
-        <div class="badge lg">15</div>
-        <div class="upperSection">
-          <img src="./images/Changing-planet.jpg" alt="" />
-
-          <div class="upperContent">
-            <h2>Our changing planet</h2>
-            <h3>by Kurt Wagner</h3>
-          </div>
-          <div class="details">
-            <p>
-              Visit ten places on our planet that are undergoing the biggest
-              changes today.
-            </p>
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=570&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522basic-card%2520badge-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520lg%2522%253E15%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperSection%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperContent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EAuthor%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EText%2520Content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522lower%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EREAD%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBOOKMARK%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Flove.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fshare.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fdots.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 650px; height: 746px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
           </div>
         </div>
 
-        <div class="lower">
-          <div>
-            <button>
-              <small>READ</small>
-            </button>
-            <button>
-              <small>BOOKMARK</small>
-            </button>
-          </div>
-          <div>
-            <img src="./images/love.png" alt="" />
-            <img src="./images/share.png" alt="" />
-            <img src="./images/dots.png" alt="" />
-          </div>
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Horizontal Card</h2>
         </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large.
+            To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
+            <br>
+            Note: Default avatar size is medium.
+          </p>
+
+<div class="example">
+  <div class="horizontal-card">
+    <div class="upperSection">
+      <img src="./images/Changing-planet.jpg" alt="" />
+
+      <div class="upperContent">
+        <h2>Our Changing Planet</h2>
+        <h3>by Kurt Wagner</h3>
       </div>
     </div>
+    <div class="lower">
+      <div>
+        <button>
+          <small>READ</small>
+        </button>
+        <button>
+          <small>BOOKMARK</small>
+        </button>
+      </div>
+      <div>
+        <img src="./images/love.png" alt="" />
+        <img src="./images/share.png" alt="" />
+        <img src="./images/dots.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=570&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperSection%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522url%2522%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522upperContent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EAuthor%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522lower%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EREAD%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBOOKMARK%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Flove.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fshare.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fdots.png%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 650px; height: 653px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </div>
+      </main>
+    </section>
   </body>
-</html>
+  </html>
+
+
+  

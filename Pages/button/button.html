@@ -6,119 +6,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/e06444868d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
+    <header class="header">
+      <div class="logo">
+        <h2>Maya-Ui</h2>
+      </div>
 
-    <body>
-      <header class="header">
-        <div class="logo">
-          <h2>Maya-Ui</h2>
+      <nav class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>Documentation</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="documentation">
+      <aside class="sidebar">
+        <div class="list-topic">
+          <h4>Get Started</h4>
         </div>
-  
-        <nav class="navbar">
-          <ul>
-            <li>Home</li>
-            <li>Documentation</li>
-          </ul>
-        </nav>
-      </header>
-      <section class="documentation">
-        <aside class="sidebar">
-          <div class="list-topic">
-            <h4>Get Started</h4>
-          </div>
-          <ul>
-            <li><a href="../Introduction/Introduction.html">Introduction</a></li>
-            <li><a href="../Colors/colors.html">Colors</a></li>
-            <li><a href="../Typography/typography.html">Typography</a></li>
-          </ul>
-  
-          <div class="list-topic">
-            <h4>Components</h4>
-          </div>
-          <ul>
-            <li><a href="../Avatar/avatar.html">Avatar</a></li>
-            <li><a href="">Alert</a></li>
-            <li><a href="">Badge</a></li>
-            <li><a href="">Button</a></li>
-            <li><a href="">Card</a></li>
-            <li><a href="">Image</a></li>
-            <li><a href="">Input</a></li>
-            <li><a href="">List</a></li>
-            <li><a href="">Toast</a></li>
-          </ul>
-        </aside>
-        <main class="main-content">
-          <div class="content-head">
-            <h2>Button</h2>
-          </div>
-          <div class="content">
-            <p>
-              Avatar are circular images generally used to represent a user or
-              user's persona.
-            </p>
-          </div>
-  
-          <div class="divider"></div>
-  
-          <div class="content-head">
-            <h2>Contained Buttons</h2>
-          </div>
-          <div class="content">
-            <p>
-              Profile avatars can created by adding class = 'avatar' inside img
-              tag.
-            </p>
-  
-            <div class="example">
-              
-                <button class="btn-primary btn">Primary</button>
-                <button class="btn">Default</button>
-                <button class="btn-error btn">Error</button>
-                <button class="btn-success btn">Success</button>
-              
-            </div>
-  
-            <div class="code-example">
-              <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-error%2520btn%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-success%2520btn%2522%253ESuccess%253C%252Fbutton%253E"
-  style="width: 650px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-          </div>
-  
-          <div class="divider"></div>
-  
-          <div class="content-head">
-            <h2>Outlined Buttons</h2>
-          </div>
-          <div class="content">
-            <p>
-              Avatars comes in three different sizes: small, medium and large.
-              To use these sizes just add their abbreviation sm, md, lg respectively along with 'avatar' class.
-              <br>
-              Note: Default avatar size is medium.
-            </p>
-  
-  <div class="example">
-    <button class="btn outline-primary">Primary</button>
-    <button class="btn outline">Default</button>
-    <button class="btn outline-error">Error</button>
-    <button class="btn outline-success">Success</button>
-  </div>
-  
-            <div class="code-example">
-              <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E"
-  style="width: 650px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-            </div>
-          </div>
-        </main>
-      </section>
-  
+        <ul>
+          <li><a href="../Introduction/Introduction.html">Introduction</a></li>
+          <li><a href="../Colors/colors.html">Colors</a></li>
+          <li><a href="../Typography/typography.html">Typography</a></li>
+        </ul>
 
+        <div class="list-topic">
+          <h4>Components</h4>
+        </div>
+        <ul>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a href="">Alert</a></li>
+          <li><a href="">Badge</a></li>
+          <li><a href="">Button</a></li>
+          <li><a href="">Card</a></li>
+          <li><a href="">Image</a></li>
+          <li><a href="">Input</a></li>
+          <li><a href="">List</a></li>
+          <li><a href="">Toast</a></li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <div class="content-head">
+          <h2>Button</h2>
+        </div>
+        <div class="content">
+          <p>
+            Avatar are circular images generally used to represent a user or
+            user's persona.
+          </p>
+        </div>
 
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Contained Buttons</h2>
+        </div>
+        <div class="content">
+          <p>
+            Profile avatars can created by adding class = 'avatar' inside img
+            tag.
+          </p>
+
+          <div class="example">
+            <button class="btn-primary btn">Primary</button>
+            <button class="btn">Default</button>
+            <button class="btn-error btn">Error</button>
+            <button class="btn-success btn">Success</button>
+          </div>
+
+          <div class="code-example">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-error%2520btn%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-success%2520btn%2522%253ESuccess%253C%252Fbutton%253E"
+              style="
+                width: 650px;
+                height: 260px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Outlined Buttons</h2>
+        </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large. To
+            use these sizes just add their abbreviation sm, md, lg respectively
+            along with 'avatar' class.
+            <br />
+            Note: Default avatar size is medium.
+          </p>
+
+          <div class="example">
+            <button class="btn outline-primary">Primary</button>
+            <button class="btn outline">Default</button>
+            <button class="btn outline-error">Error</button>
+            <button class="btn outline-success">Success</button>
+          </div>
+
+          <div class="code-example">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E"
+              style="
+                width: 650px;
+                height: 298px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Icon Button</h2>
+        </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large. To
+            use these sizes just add their abbreviation sm, md, lg respectively
+            along with 'avatar' class.
+            <br />
+            Note: Default avatar size is medium.
+          </p>
+
+          <div class="example">
+            <button class="btn icon-button">
+              <i class="fas fa-trash"></i>
+            </button>
+
+            <button class="btn icon-button">
+              <i class="fas fa-camera"></i>
+            </button>
+          </div>
+
+          <div class="code-example">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=438&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520icon-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520icon-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-camera%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+              style="
+                width: 500px;
+                height: 318px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Floating Button</h2>
+        </div>
+        <div class="content">
+          <p>
+            Avatars comes in three different sizes: small, medium and large. To
+            use these sizes just add their abbreviation sm, md, lg respectively
+            along with 'avatar' class.
+            <br />
+            Note: Default avatar size is medium.
+          </p>
+
+          <div class="example">
+            <button class="btn floating-button">
+              <i class="fas fa-pen"></i>
+            </button>
+
+            <button class="btn floating-button">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+
+          <div class="code-example">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=438&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520floating-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520floating-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+              style="
+                width: 500px;
+                height: 318px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+    </section>
   </body>
-  </html>
+</html>

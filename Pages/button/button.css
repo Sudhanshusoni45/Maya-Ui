@@ -57,3 +57,16 @@
 .btn:hover {
   cursor: pointer;
 }
+
+.icon-button {
+  color: var(--primary-color);
+  font-size: 25px;
+  background: none;
+}
+
+.floating-button {
+  background: var(--primary-color);
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 15px;
+}
