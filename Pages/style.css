@@ -9,6 +9,7 @@
 @import url(./Image-component/image-component.css);
 @import url(./Navigation/navigation.css);
 @import url(./Snackbar/snackbar.css);
+@import url(./Drawer/drawer.css);
 
 * {
   margin: 0;
