@@ -8,6 +8,7 @@
 @import url(./Input/input.css);
 @import url(./Image-component/image-component.css);
 @import url(./Navigation/navigation.css);
+@import url(./Snackbar/snackbar.css);
 
 * {
   margin: 0;
