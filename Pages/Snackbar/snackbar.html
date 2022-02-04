@@ -11,34 +11,165 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <div class="snackbar baseline">
-      <span>Can't send photo.Retry in 5 seconds.</span>
-      <span>RETRY</span>
-      <i class="fas fa-times"></i>
-    </div>
-
-    <div class="snackbar leading">
-      <span>Your photo has been archived</span>
-      <span>UNDO</span>
-      <i class="fas fa-times"></i>
-    </div>
-
-    <div class="snackbar stacked">
-      <span
-        >This item has already label "travel". You can add a new label.</span
-      >
-      <div>
-        <span>ADD A NEW LABEL</span>
-        <i class="fas fa-times"></i>
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <h2>Maya-Ui</h2>
+        </a>
       </div>
-    </div>
 
-    <main class="toggles">
-      <button class="btn btn-primary" id="btn-baseline">Baseline</button
-      ><button class="btn btn-primary" id="btn-leading">Leading</button
-      ><button class="btn btn-primary" id="btn-stacked">Stacked</button>
-    </main>
-    <script src="snackbar.js"></script>
+      <nav class="navbar">
+        <ul>
+          <a href="/index.html">
+            <li>Home</li>
+          </a>
+          <a href="/Pages/Introduction/Introduction.html">
+            <li>Documentation</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <section class="documentation">
+      <aside class="sidebar">
+        <div class="list-topic">
+          <h4>Get Started</h4>
+        </div>
+        <ul>
+          <li><a href="../Introduction/Introduction.html">Introduction</a></li>
+          <li><a href="../Colors/colors.html">Colors</a></li>
+          <li><a href="../Typography/typography.html">Typography</a></li>
+        </ul>
+
+        <div class="list-topic">
+          <h4>Components</h4>
+        </div>
+        <ul>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a href="../Alert/alert.html">Alert</a></li>
+          <li><a href="../Badge/badge.html">Badge</a></li>
+          <li><a href="../button/button.html">Button</a></li>
+          <li><a href="../Card/card.html">Card</a></li>
+          <li><a href="../Image-component/image-component.html">Image</a></li>
+          <li><a href="../Input/input.html">Input</a></li>
+          <li><a href="../Navigation/navigation.html">Navigation</a></li>
+          <li><a href="../Snackbar/snackbar.html">Snackbar</a></li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <div class="content-head">
+          <h2>Snackbar</h2>
+        </div>
+        <div class="content">
+          <p>Snackbar lorem ipsum dolor sit </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Baseline</h2>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.
+          </p>
+
+          <div class="example">
+            <div class="toggles">
+              <button class="btn btn-primary" id="btn-baseline">Baseline</button>
+            </div>
+          </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=583&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2520baseline%2522%253E%250A%2520%2520%253Cspan%253ECan%27t%2520send%2520photo.Retry%2520in%25205%2520seconds.%253C%252Fspan%253E%250A%2520%2520%253Cspan%253ERETRY%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 579px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Leading</h2>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.
+          </p>
+
+          <div class="example">
+            <div class="toggles">
+              <button class="btn btn-primary" id="btn-leading">Leading</button
+              >
+            </div>
+          </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=579&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2520leading%2522%253E%250A%2520%2520%253Cspan%253EYour%2520photo%2520has%2520been%2520archived%253C%252Fspan%253E%250A%2520%2520%253Cspan%253EUNDO%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 524px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Stacked</h2>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.
+          </p>
+
+          <div class="example">
+            <div class="toggles">
+              <button class="btn btn-primary" id="btn-stacked">Stacked</button>
+            </div>
+          </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=524&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2520stacked%2522%253E%250A%2520%2520%253Cspan%253EThis%2520item%2520has%2520already%2520label%2520%2522travel%2522.%2520%250A%2520%2520%2520%2520You%2520can%2520add%2520a%2520new%2520label.%253C%252Fspan%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cspan%253EADD%2520A%2520NEW%2520LABEL%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 547px; height: 336px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        
+        
+        <div class="snackbar baseline">
+          <span>Can't send photo.Retry in 5 seconds.</span>
+          <span>RETRY</span>
+          <i class="fas fa-times"></i>
+        </div>
+      
+        <div class="snackbar leading">
+          <span>Your photo has been archived</span>
+          <span>UNDO</span>
+          <i class="fas fa-times"></i>
+        </div>
+      
+        <div class="snackbar stacked">
+          <span
+            >This item has already label "travel". You can add a new label.</span
+          >
+          <div>
+            <span>ADD A NEW LABEL</span>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      
+        
+        
+        <script src="snackbar.js"></script>
   </body>
 </html>
+
+  
+  
