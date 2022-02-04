@@ -3,8 +3,8 @@
   background: #333333;
   color: white;
   border-radius: 3px;
-  width: 387px;
-  height: 45px;
+  width: 24.18rem;
+  height: 2.81rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,12 +21,12 @@
 
 .baseline {
   position: fixed;
-  bottom: 19px;
+  bottom: 1.18rem;
   left: 40%;
 }
 
 .leading {
-  width: 340px;
+  width: 21.25rem;
   padding: 0 0.8rem;
   position: fixed;
   bottom: 19px;
@@ -35,12 +35,12 @@
 
 .stacked {
   flex-flow: column;
-  width: 490px;
+  width: 30.6rem;
   min-width: min-content;
-  height: 95px;
+  height: 5.93rem;
   padding: 0 0.5rem;
   position: fixed;
-  bottom: 19px;
+  bottom: 1.18rem;
   left: 33%;
 }
 
