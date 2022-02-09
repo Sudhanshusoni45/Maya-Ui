@@ -56,6 +56,11 @@
   border: 2px solid var(--success-color);
 }
 
+.btn.btn-link {
+  border-radius: 0;
+  background: var(--primary-color);
+}
+
 /* pseudo classes */
 
 .btn:hover {
