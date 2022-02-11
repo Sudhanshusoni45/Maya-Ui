@@ -193,3 +193,80 @@ body {
   background-color: var(--danger-color);
   border-radius: 50%;
 }
+
+/* ecomm cards */
+
+/* basic ecomm card */
+.card {
+  background: var(--white-color);
+  box-shadow: var(--big-box-shadow);
+  height: 18rem;
+  width: 15rem;
+  border-radius: 20px;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  flex-flow: column;
+}
+
+.product-card {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 20px;
+  display: flex;
+}
+
+.card-image {
+  width: 11rem;
+  transform: rotate(-20deg);
+  margin-right: 1rem;
+}
+
+.card-details {
+  align-self: flex-start;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.card-details h4 {
+  display: inline-block;
+}
+
+.card-details h4:nth-child(2) {
+  margin-left: 2rem;
+}
+
+/* horizontal ecomm cards */
+
+.horizontal-ecomm-card {
+  background: var(--white-color);
+  box-shadow: var(--big-box-shadow);
+  height: 12rem;
+  width: 25rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+.horizontal-card-image-bg {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 20px;
+  display: flex;
+}
+
+.horizontal-card-details {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin-left: 1rem;
+  height: 10rem;
+}
+
+.horizontal-card-details button {
+  font-size: 14px;
+}
