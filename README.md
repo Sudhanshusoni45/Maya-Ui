@@ -3,7 +3,7 @@
 
 To use Maya-UI just Link our CSS file in the <head> tag of your index.html file.
 ```html
-<link rel="stylesheet" href="https://maya-ui.netlify.app/css/main.css"/>
+<link rel="stylesheet" href="https://maya-ui.netlify.app/main.css"/>
 ```
 
 ## Components
