@@ -12,6 +12,7 @@
 @import url(./Drawer/drawer.css);
 @import url(./Rating/rating.css);
 @import url(./Grid/grid.css);
+@import url(./Modal/modal.css);
 
 * {
   margin: 0;
