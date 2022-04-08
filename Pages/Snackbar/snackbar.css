@@ -53,3 +53,7 @@
 .stacked > div span {
   margin-right: 1.5rem;
 }
+
+.stacked-close-btn,.baseline-close-btn,.leading-close-btn{
+  cursor: pointer;
+}
