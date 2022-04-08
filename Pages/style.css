@@ -109,11 +109,9 @@ a:hover {
 /* Sidebar */
 
 .sidebar {
-  /* outline: green solid; */
   padding-top: 1rem;
   padding-left: 2rem;
   justify-self: center;
-  /* align-self: center; */
   width: 15%;
 }
 
