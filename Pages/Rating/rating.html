@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maya-Ui</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/e06444868d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <h2>Maya-Ui</h2>
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <a href="/index.html">
+            <li>Home</li>
+          </a>
+          <a href="/Pages/Introduction/Introduction.html">
+            <li>Documentation</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <section class="documentation">
+      <aside class="sidebar">
+        <div class="list-topic">
+          <h4>Get Started</h4>
+        </div>
+        <ul>
+          <li><a href="../Introduction/Introduction.html">Introduction</a></li>
+          <li><a href="../Colors/colors.html">Colors</a></li>
+          <li><a href="../Typography/typography.html">Typography</a></li>
+        </ul>
+
+        <div class="list-topic">
+          <h4>Components</h4>
+        </div>
+        <ul>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a href="../Alert/alert.html">Alert</a></li>
+          <li><a href="../Badge/badge.html">Badge</a></li>
+          <li><a href="../button/button.html">Button</a></li>
+          <li><a href="../Card/card.html">Card</a></li>
+          <li><a href="../Image-component/image-component.html">Image</a></li>
+          <li><a href="../Input/input.html">Input</a></li>
+          <li><a href="../Navigation/navigation.html">Navigation</a></li>
+          <li><a href="../Snackbar/snackbar.html">Snackbar</a></li> <li><a href="../Drawer/drawer.html">Drawer</a></li>
+          <li><a href="../Rating/rating.html">Rating</a></li>
+          <li><a href="../Grid/grid.html">Grid</a></li>        </ul>
+      </aside>
+      <main class="main-content">
+        <div class="content-head">
+          <h2>Rating</h2>
+        </div>
+        <div class="content">
+          <p>
+           Rating provides a quick glimpse into how the users feel about a product.
+          </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Simple Rating</h2>
+        </div>
+        <div class="content">
+          <p>
+            Simple rating can be created by adding class name 'rating-container' to star icons
+          </p>
+
+          <div class="example">
+           <div class="rating-container">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+
+           </div>
+          </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=524&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 100%; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content-head">
+          <h2>Rating component Sizes</h2>
+        </div>
+        <div class="content">
+          <p>
+            Use md and lg classes for medium and large size respectively for rating component.
+            <br>
+            Note: Default avatar size is small.
+          </p>
+
+<div class="example">
+  <div class="rating-container">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+
+  </div>
+  <div class="rating-container md">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+
+  </div>
+  <div class="rating-container lg">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+
+  </div>
+</div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=456&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating-container%2520md%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating-container%2520lg%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 616px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </div>
+
+<div class="divider">
+
+</div>
+
+        <div class="content-head">
+          <h2>Rating filled</h2>
+        </div>
+        <div class="content">
+          <p>
+            Fill the rating stars by just replacing far to fas
+          </p>
+
+          <div class="example">
+           <div class="rating-container">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+
+           </div>
+          </div>
+
+          <div class="code-example">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=524&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 100%; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>        
+      </main>
+    </section>
+  </body>
+</html>

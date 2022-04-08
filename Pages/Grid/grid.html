@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maya-Ui</title>
     <link rel="stylesheet" href="../style.css" />
-    <script
-      src="https://kit.fontawesome.com/e06444868d.js"
-      crossorigin="anonymous"
-    ></script>
+    
   </head>
-
   <body>
     <header class="header">
       <div class="logo">
@@ -56,49 +52,59 @@
           <li><a href="../Navigation/navigation.html">Navigation</a></li>
           <li><a href="../Snackbar/snackbar.html">Snackbar</a></li> <li><a href="../Drawer/drawer.html">Drawer</a></li>
           <li><a href="../Rating/rating.html">Rating</a></li>
-          <li><a href="../Grid/grid.html">Grid</a></li>        </ul>
+          <li><a href="../Grid/grid.html">Grid</a></li>
+          
+          
+        </ul>
       </aside>
       <main class="main-content">
         <div class="content-head">
-          <h2>Navigation</h2>
+          <h2>Grid</h2>
         </div>
         <div class="content">
-          <p>Navigation bars are container for items such as application title,navigation icon and action items. </p>
+          <p>
+              Grid component is used to make fluid and responsive layouts.
+          </p>
         </div>
 
         <div class="divider"></div>
 
         <div class="content-head">
-          <h2>Simple Navigation</h2>
+          <h2>Basic grid</h2>
         </div>
         <div class="content">
-          
+          <p>
+            Simple rating can be created by adding class name 'rating-container' to star icons
+          </p>
 
-          <div class="example">
-            <header class="navigation">
-              <div>
-                <i class="fas fa-bars"></i>
-                <h3>Maya-Ui</h3>
-              </div>
-              <nav>
-                <ul>
-                  <li><i class="fas fa-download"></i></li>
-                  <li><i class="fas fa-print"></i></li>
-                  <li><i class="fas fa-bookmark"></i></li>
-                </ul>
-              </nav>
-            </header>
+          <div class="grid-example">
+           <div class="grid grid-col-2 gap-1">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+           </div>
           </div>
-
+<div class="content">
+    <p>Note: Use grid-col-2 to grid-col-6 to change the number of columns in the grid layout</p>
+    <p>Use gap-1 to gap-4 to increase the gap between grid elements</p>
+</div>
           <div class="code-example">
             <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=477&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522navigation%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ch3%253EMaya-Ui%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-print%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E%250A"
-  style="width: 100%; height: 541px; border:0; transform: scale(1); overflow:hidden;"
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=456&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-col-2%2520gap-1%2522%253E%250A%253Cdiv%253E1%253C%252Fdiv%253E%250A%253Cdiv%253E2%253C%252Fdiv%253E%250A%2520%2520...%250A%253Cdiv%253E6%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 281px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
-          </div>
         </div>
 
+        <div class="divider"></div>
+
+      
+
         
+      </main>
+    </section>
   </body>
 </html>
