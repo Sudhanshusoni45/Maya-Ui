@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="./modal.css">
     <script
       src="https://kit.fontawesome.com/e06444868d.js"
       crossorigin="anonymous"
@@ -60,12 +59,27 @@
             <li><a href="../Grid/grid.html">Grid</a></li>        </ul>
         </aside>
         <div class="main-content">
+
+          <div class="content-head">
+            <h2>Modal</h2>
+          </div>
+
+          <div class="content">
+            <p>
+              Modal Components are used to show important information to the user.
+            </p>
+            <p>
+              Click on the button 'basic modal' to see an example.
+            </p>
+            <br>
+            <p>Modal requires to javascript to function properly, the script that we use is given below.</p>
+          </div>
             <div class="example">
                 <button class="btn btn-primary modal-btn">Basic Modal</button>
             </div>
 
 <div class="modal-backdrop modal-backdrop-hide"></div>
-<div class="modal-container ">
+<div class="modal-container modal-container-hide">
     <div class="modal modal-hide">
         <i class="fas fa-times modal-cross"></i>
         <div class="modal-content">
@@ -74,7 +88,26 @@
         </div>
     </div>
 </div>
-    
+
+<div class="code-example">
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=560&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-backdrop%2520modal-backdrop-hide%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal-container%2520%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2520modal-hide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520modal-cross%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EModal%2520Title%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520%253ELorem%2520ipsum%2520dolor...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 374px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+
+<div class="code-example">
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=javascript&width=560&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520modal%2520%253D%2520document.querySelector%28%27.modal%27%29%250Aconst%2520showModalBtn%2520%253D%2520document.querySelector%28%27.modal-btn%27%29%250Aconst%2520closeModalBtn%2520%253D%2520document.querySelector%28%27.modal-cross%27%29%250Aconst%2520modalBackdrop%2520%253D%2520document.querySelector%28%27.modal-backdrop-hide%27%29%250A%250AshowModalBtn.addEventListener%28%27click%27%252C%2520showModal%29%250AcloseModalBtn.addEventListener%28%27click%27%252C%2520closeModal%29%250A%250Afunction%2520showModal%28%29%2520%257B%250A%2520%2520modal.classList.toggle%28%27modal-hide%27%29%250A%2520%2520modalBackdrop.classList.toggle%28%27modal-backdrop-hide%27%29%250A%2520%2520%250A%257D%250Afunction%2520closeModal%28%29%2520%257B%250A%2520%2520modalBackdrop.classList.toggle%28%27modal-backdrop-hide%27%29%250A%2520%2520modal.classList.toggle%28%27modal-hide%27%29%250A%257D%250A"
+  style="width: 100%; height: 522px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+  
+   <div class="content">
+     <p></p>
+   </div>
         </div>
         <script src="./modal.js"></script>
   </body>
