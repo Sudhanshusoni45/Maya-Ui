@@ -28,4 +28,8 @@
   --space-xl: 3rem;
   --space-xxl: 4rem;
   --space-xxxl: 4.5rem;
+
+/* box shadow */
+--big-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
