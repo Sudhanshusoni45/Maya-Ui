@@ -36,6 +36,10 @@ a:hover {
   color: var(--primary-color);
 }
 
+.sidebar a:active{
+  color: var(--primary-color);
+  }
+
 .flex-column {
   flex-flow: column;
 }
@@ -132,6 +136,9 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+
+
+
 /* Main content */
 
 .main-content {
@@ -226,6 +233,10 @@ a:hover {
   background: var(--primary-shade);
   padding: var(--space-xs);
 }
+.active-link{
+  color: var(--primary-color);
+}
+
 
 @media screen and (max-width: 1050px) {
   .sidebar {
