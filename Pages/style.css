@@ -13,6 +13,7 @@
 @import url(./Rating/rating.css);
 @import url(./Grid/grid.css);
 @import url(./Modal/modal.css);
+@import url(./Typography/typography.css);
 
 * {
   margin: 0;
@@ -108,11 +109,9 @@ a:hover {
 /* Sidebar */
 
 .sidebar {
-  /* outline: green solid; */
   padding-top: 1rem;
   padding-left: 2rem;
   justify-self: center;
-  /* align-self: center; */
   width: 15%;
 }
 
