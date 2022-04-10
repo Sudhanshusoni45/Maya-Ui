@@ -67,40 +67,45 @@
         </div>
         <div class="content">
           <p>
-            Avatar are circular images generally used to represent a user or
-            user's persona.
+            Input are interactive elements which is used to get information from
+            the user.
           </p>
         </div>
 
         <div class="divider"></div>
 
         <div class="content-head">
-          <h2>Label Input</h2>
+          <h2>Basic Input</h2>
         </div>
         <div class="content">
           <p>
-            Profile avatars can created by adding class = 'avatar' inside img
-            tag.
+            Basic input component can be used by adding 'input-group' class to
+            the container element.
           </p>
 
           <div class="example">
             <div class="input-group">
               <label for="Username">Username</label>
-              <input type="text" />
+              <input type="text" name="username" id="username" />
             </div>
 
             <div class="input-group">
               <label for="password">Password</label>
-              <input type="text" type="password" />
+              <input
+                type="text"
+                type="password"
+                name="password"
+                id="password"
+              />
             </div>
           </div>
 
           <div class="code-example">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-error%2520btn%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-success%2520btn%2522%253ESuccess%253C%252Fbutton%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=542&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522Username%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522username%2522%2520id%253D%2522username%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520id%253D%2522password%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
               style="
                 width: 100%;
-                height: 260px;
+                height: 338px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -117,11 +122,7 @@
         </div>
         <div class="content">
           <p>
-            Avatars comes in three different sizes: small, medium and large. To
-            use these sizes just add their abbreviation sm, md, lg respectively
-            along with 'avatar' class.
-            <br />
-            Note: Default avatar size is medium.
+            This input is generally used on any successful completion of a form.
           </p>
 
           <div class="example">
@@ -134,10 +135,10 @@
 
           <div class="code-example">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=542&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2520success-input%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%2520Password%2520%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2520%2520%253Cdiv%253EValid%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
               style="
                 width: 100%;
-                height: 298px;
+                height: 264px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -155,11 +156,7 @@
         </div>
         <div class="content">
           <p>
-            Avatars comes in three different sizes: small, medium and large. To
-            use these sizes just add their abbreviation sm, md, lg respectively
-            along with 'avatar' class.
-            <br />
-            Note: Default avatar size is medium.
+            This input is generally used to show some error in filling a form.
           </p>
 
           <div class="example">
@@ -172,10 +169,10 @@
 
           <div class="code-example">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=438&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520icon-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520icon-button%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-camera%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+              src="https://carbon.now.sh/embed?bg=rgba%28156%2C195%2C249%2C1%29&t=seti&wt=none&l=htmlmixed&width=542&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2520error-input%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%2520Password%2520%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%253EInvalid%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
               style="
                 width: 100%;
-                height: 318px;
+                height: 264px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -192,7 +189,10 @@
           <h2>Textarea</h2>
         </div>
         <div class="content">
-          <p>Text area blah blah</p>
+          <p>
+            Text area allow users to enter text into a Ui. They typically appear
+            in forms.
+          </p>
 
           <div class="example">
             <textarea
