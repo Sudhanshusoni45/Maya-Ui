@@ -36,9 +36,9 @@ a:hover {
   color: var(--primary-color);
 }
 
-.sidebar a:active{
+.sidebar a:active {
   color: var(--primary-color);
-  }
+}
 
 .flex-column {
   flex-flow: column;
@@ -56,7 +56,7 @@ a:hover {
   font-weight: bold;
   position: sticky;
   top: 0;
-  z-index: 8888;
+  z-index: 4;
   background: var(--white-color);
 }
 
@@ -136,9 +136,6 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-
-
-
 /* Main content */
 
 .main-content {
@@ -175,8 +172,6 @@ a:hover {
   gap: 1rem;
   border: 1px solid rgb(226, 226, 226);
 }
-
-
 
 .code-example {
   margin-top: 1rem;
@@ -222,21 +217,20 @@ a:hover {
 }
 
 /* grid */
-.grid-example{
+.grid-example {
   border: 1px solid rgb(226, 226, 226);
   padding: var(--space-sm);
   margin: 2.5rem 0;
 }
-.grid>div{
+.grid > div {
   text-align: center;
   border-radius: var(--space-md);
   background: var(--primary-shade);
   padding: var(--space-xs);
 }
-.active-link{
+.active-link {
   color: var(--primary-color);
 }
-
 
 @media screen and (max-width: 1050px) {
   .sidebar {
