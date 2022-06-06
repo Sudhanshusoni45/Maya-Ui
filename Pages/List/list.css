@@ -1,0 +1,24 @@
+.list{
+    list-style: none;
+}
+.list-item{
+    margin-bottom: var(--space-sm);    
+}
+/* stakced list */
+.stacked-list-item{
+    width: 40rem;
+    display: flex;
+    gap: var(--space-xxs);
+    margin-bottom: var(--space-sm);
+
+}
+.stacked-list-content{
+    margin-top: var(--space-xxs);
+}
+.example.stacked-list-example{
+    display: block;
+}
+.stacked-list-icon{
+margin-top: var(--space-xs);
+margin-left: var(--space-xxl);
+}

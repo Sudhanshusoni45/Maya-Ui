@@ -1,0 +1,15 @@
+.grey-text{
+    color: rgb(148, 148, 148);
+}
+.example.align-example{
+    display:block;
+}
+.left-align{
+    text-align: left;
+}
+.right-align{
+    text-align: right;
+}
+.center-align{
+    text-align: center;
+}
