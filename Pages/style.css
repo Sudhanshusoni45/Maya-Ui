@@ -123,6 +123,7 @@ a:hover {
   height: 40rem;
   position: sticky;
   top: 6rem;
+  overflow-y: scroll;
 }
 
 .sidebar .list-topic {
